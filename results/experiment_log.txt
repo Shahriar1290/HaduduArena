@@ -1,0 +1,182 @@
++ python -m experiments.tournament --games 20 --a minimax:3 --b mcts:800 --seed 1 --quiet
+
+=== minimax:3 (X) vs mcts:800 (Y), 20 games, komi 0 ===
+  X wins 75%  draws 0%  Y wins 25%
+  average score  X 5.05  Y 3.15
+  avg decision time  X 3.8 ms  Y 224.7 ms
+  avg nodes/decision X 223  Y 800
+  first raider wins 55%  second raider wins 45%  (first raider's expected score 55%, 50% = fair)
+  tackles per game 3.5   wall time 301 s
+  CSV: results\20261014-190443_minimax3_vs_mcts800_komi0.csv
++ python -m experiments.tournament --games 40 --a minimax:2 --b minimax:2 --seed 1 --komi-sweep 0,1,2 --quiet
+
+=== minimax:2 (X) vs minimax:2 (Y), 40 games, komi 0.0 ===
+  X wins 50%  draws 0%  Y wins 50%
+  average score  X 1.50  Y 1.50
+  avg decision time  X 0.6 ms  Y 0.6 ms
+  avg nodes/decision X 54  Y 54
+  first raider wins 0%  second raider wins 100%  (first raider's expected score 0%, 50% = fair)
+  tackles per game 0.0   wall time 5 s
+  CSV: results\20261014-190449_minimax2_vs_minimax2_komi0.0.csv
+
+=== minimax:2 (X) vs minimax:2 (Y), 40 games, komi 1.0 ===
+  X wins 0%  draws 100%  Y wins 0%
+  average score  X 1.50  Y 1.50
+  avg decision time  X 0.6 ms  Y 0.6 ms
+  avg nodes/decision X 54  Y 54
+  first raider wins 0%  second raider wins 0%  (first raider's expected score 50%, 50% = fair)
+  tackles per game 0.0   wall time 5 s
+  CSV: results\20261014-190454_minimax2_vs_minimax2_komi1.0.csv
+
+=== minimax:2 (X) vs minimax:2 (Y), 40 games, komi 2.0 ===
+  X wins 50%  draws 0%  Y wins 50%
+  average score  X 1.50  Y 1.50
+  avg decision time  X 0.6 ms  Y 0.6 ms
+  avg nodes/decision X 54  Y 54
+  first raider wins 100%  second raider wins 0%  (first raider's expected score 100%, 50% = fair)
+  tackles per game 0.0   wall time 5 s
+  CSV: results\20261014-190458_minimax2_vs_minimax2_komi2.0.csv
+
+=== komi sweep: first raider's expected score (win 1, draw 0.5) ===
+  komi  0.0: first 0%  second 100%  draws 0%  expected score 0%
+  komi  1.0: first 0%  second 0%  draws 100%  expected score 50%
+  komi  2.0: first 100%  second 0%  draws 0%  expected score 100%
+  closest to 50%: komi 1.0
++ python -m experiments.tournament --games 40 --a minimax:3 --b minimax:3 --seed 1 --komi-sweep 0,1,2 --quiet
+
+=== minimax:3 (X) vs minimax:3 (Y), 40 games, komi 0.0 ===
+  X wins 52%  draws 5%  Y wins 42%
+  average score  X 2.83  Y 2.50
+  avg decision time  X 4.5 ms  Y 4.4 ms
+  avg nodes/decision X 322  Y 323
+  first raider wins 38%  second raider wins 58%  (first raider's expected score 40%, 50% = fair)
+  tackles per game 0.9   wall time 25 s
+  CSV: results\20261014-190525_minimax3_vs_minimax3_komi0.0.csv
+
+=== minimax:3 (X) vs minimax:3 (Y), 40 games, komi 1.0 ===
+  X wins 45%  draws 25%  Y wins 30%
+  average score  X 2.83  Y 2.50
+  avg decision time  X 5.5 ms  Y 5.5 ms
+  avg nodes/decision X 322  Y 323
+  first raider wins 42%  second raider wins 32%  (first raider's expected score 55%, 50% = fair)
+  tackles per game 0.9   wall time 31 s
+  CSV: results\20261014-190556_minimax3_vs_minimax3_komi1.0.csv
+
+=== minimax:3 (X) vs minimax:3 (Y), 40 games, komi 2.0 ===
+  X wins 48%  draws 15%  Y wins 38%
+  average score  X 2.83  Y 2.50
+  avg decision time  X 4.7 ms  Y 4.6 ms
+  avg nodes/decision X 322  Y 323
+  first raider wins 68%  second raider wins 18%  (first raider's expected score 75%, 50% = fair)
+  tackles per game 0.9   wall time 27 s
+  CSV: results\20261014-190622_minimax3_vs_minimax3_komi2.0.csv
+
+=== komi sweep: first raider's expected score (win 1, draw 0.5) ===
+  komi  0.0: first 38%  second 58%  draws 5%  expected score 40%
+  komi  1.0: first 42%  second 32%  draws 25%  expected score 55%
+  komi  2.0: first 68%  second 18%  draws 15%  expected score 75%
+  closest to 50%: komi 1.0
++ python -m experiments.tournament --games 20 --a mcts:800 --b mcts:800 --seed 1 --komi-sweep 0,1,2 --quiet
+
+=== mcts:800 (X) vs mcts:800 (Y), 20 games, komi 0.0 ===
+  X wins 50%  draws 20%  Y wins 30%
+  average score  X 3.45  Y 2.75
+  avg decision time  X 181.0 ms  Y 181.6 ms
+  avg nodes/decision X 800  Y 800
+  first raider wins 45%  second raider wins 35%  (first raider's expected score 55%, 50% = fair)
+  tackles per game 1.5   wall time 355 s
+  CSV: results\20261014-191219_mcts800_vs_mcts800_komi0.0.csv
+
+=== mcts:800 (X) vs mcts:800 (Y), 20 games, komi 1.0 ===
+  X wins 45%  draws 0%  Y wins 55%
+  average score  X 3.10  Y 2.75
+  avg decision time  X 197.9 ms  Y 198.8 ms
+  avg nodes/decision X 800  Y 800
+  first raider wins 65%  second raider wins 35%  (first raider's expected score 65%, 50% = fair)
+  tackles per game 1.6   wall time 385 s
+  CSV: results\20261014-191844_mcts800_vs_mcts800_komi1.0.csv
+
+=== mcts:800 (X) vs mcts:800 (Y), 20 games, komi 2.0 ===
+  X wins 45%  draws 0%  Y wins 55%
+  average score  X 2.95  Y 3.25
+  avg decision time  X 206.3 ms  Y 206.4 ms
+  avg nodes/decision X 800  Y 800
+  first raider wins 95%  second raider wins 5%  (first raider's expected score 95%, 50% = fair)
+  tackles per game 1.7   wall time 425 s
+  CSV: results\20261014-192549_mcts800_vs_mcts800_komi2.0.csv
+
+=== komi sweep: first raider's expected score (win 1, draw 0.5) ===
+  komi  0.0: first 45%  second 35%  draws 20%  expected score 55%
+  komi  1.0: first 65%  second 35%  draws 0%  expected score 65%
+  komi  2.0: first 95%  second 5%  draws 0%  expected score 95%
+  closest to 50%: komi 0.0
++ python -m experiments.tournament --preset depth --games 20 --seed 1 --quiet
+
+=== minimax:2 (X) vs minimax:3 (Y), 20 games, komi 0 ===
+  X wins 5%  draws 15%  Y wins 80%
+  average score  X 1.80  Y 4.65
+  avg decision time  X 0.8 ms  Y 6.6 ms
+  avg nodes/decision X 46  Y 354
+  first raider wins 40%  second raider wins 45%  (first raider's expected score 48%, 50% = fair)
+  tackles per game 1.6   wall time 13 s
+  CSV: results\20261014-192602_minimax2_vs_minimax3_komi0.csv
+
+=== minimax:3 (X) vs minimax:4 (Y), 20 games, komi 0 ===
+  X wins 10%  draws 10%  Y wins 80%
+  average score  X 1.05  Y 3.65
+  avg decision time  X 5.9 ms  Y 19.9 ms
+  avg nodes/decision X 290  Y 907
+  first raider wins 40%  second raider wins 50%  (first raider's expected score 45%, 50% = fair)
+  tackles per game 0.3   wall time 37 s
+  CSV: results\20261014-192638_minimax3_vs_minimax4_komi0.csv
+
+=== minimax:2 (X) vs minimax:4 (Y), 20 games, komi 0 ===
+  X wins 15%  draws 0%  Y wins 85%
+  average score  X 0.85  Y 4.60
+  avg decision time  X 1.0 ms  Y 21.8 ms
+  avg nodes/decision X 49  Y 1029
+  first raider wins 35%  second raider wins 65%  (first raider's expected score 35%, 50% = fair)
+  tackles per game 0.4   wall time 36 s
+  CSV: results\20261014-192715_minimax2_vs_minimax4_komi0.csv
++ python -m experiments.tournament --preset fuzzy --games 20 --seed 1 --quiet
+
+=== fuzzy:3 (X) vs minimax:3 (Y), 20 games, komi 0 ===
+  X wins 45%  draws 5%  Y wins 50%
+  average score  X 2.90  Y 2.95
+  avg decision time  X 6.2 ms  Y 6.4 ms
+  avg nodes/decision X 309  Y 323
+  first raider wins 25%  second raider wins 70%  (first raider's expected score 28%, 50% = fair)
+  tackles per game 1.1   wall time 19 s
+  CSV: results\20261014-192735_fuzzy3_vs_minimax3_komi0.csv
++ python -m experiments.tournament --preset ordering --games 8 --seed 1 --quiet
+
+=== minimax:4 (X) vs minimax-noorder:4 (Y), 8 games, komi 0 ===
+  X wins 50%  draws 12%  Y wins 38%
+  average score  X 1.75  Y 1.38
+  avg decision time  X 19.5 ms  Y 23.1 ms
+  avg nodes/decision X 877  Y 1031
+  first raider wins 25%  second raider wins 62%  (first raider's expected score 31%, 50% = fair)
+  tackles per game 0.0   wall time 19 s
+  CSV: results\20261014-192754_minimax4_vs_minimax-noorder4_komi0.csv
++ python -m experiments.tournament --games 20 --a mcts:800 --b mcts-random:800 --seed 1 --quiet
+
+=== mcts:800 (X) vs mcts-random:800 (Y), 20 games, komi 0 ===
+  X wins 90%  draws 10%  Y wins 0%
+  average score  X 3.95  Y 1.15
+  avg decision time  X 299.2 ms  Y 198.2 ms
+  avg nodes/decision X 800  Y 800
+  first raider wins 50%  second raider wins 40%  (first raider's expected score 55%, 50% = fair)
+  tackles per game 1.4   wall time 395 s
+  CSV: results\20261014-193430_mcts800_vs_mcts-random800_komi0.csv
++ python -m experiments.tournament --preset mcts-iters --games 12 --seed 1 --quiet
+
+=== mcts:300 (X) vs mcts:2000 (Y), 12 games, komi 0 ===
+  X wins 42%  draws 25%  Y wins 33%
+  average score  X 3.25  Y 3.25
+  avg decision time  X 88.1 ms  Y 607.1 ms
+  avg nodes/decision X 300  Y 2000
+  first raider wins 50%  second raider wins 25%  (first raider's expected score 62%, 50% = fair)
+  tackles per game 1.9   wall time 412 s
+  CSV: results\20261014-194122_mcts300_vs_mcts2000_komi0.csv
++ echo ALLDONE
+ALLDONE

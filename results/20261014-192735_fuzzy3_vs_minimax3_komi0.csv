@@ -1,0 +1,21 @@
+game,agent_A,agent_B,first_raider,komi,score_A,score_B,final_diff_A,winner,winner_team,tackles,all_outs,plies,avg_time_A,avg_time_B,avg_nodes_A,avg_nodes_B,formation
+1,Fuzzy Minimax d3,Minimax d3,A,0,2,2,0,draw,draw,2,0,139,0.00567,0.0038,470.3,282.3,02-13-31-43-52
+2,Minimax d3,Fuzzy Minimax d3,A,0,1,3,-2,Fuzzy Minimax d3,B,1,0,143,0.00359,0.00371,276.4,307.8,02-13-31-43-52
+3,Fuzzy Minimax d3,Minimax d3,B,0,3,1,2,Fuzzy Minimax d3,A,1,0,125,0.00622,0.00411,388.0,325.9,02-13-31-43-52
+4,Minimax d3,Fuzzy Minimax d3,B,0,2,4,-2,Fuzzy Minimax d3,B,1,0,149,0.00383,0.00342,304.0,252.2,02-13-31-43-52
+5,Fuzzy Minimax d3,Minimax d3,A,0,1,4,-3,Minimax d3,B,2,0,145,0.00311,0.00384,245.2,320.6,02-13-31-43-52
+6,Minimax d3,Fuzzy Minimax d3,A,0,1,2,-1,Fuzzy Minimax d3,B,3,0,148,0.00807,0.00745,357.4,362.8,02-13-31-43-52
+7,Fuzzy Minimax d3,Minimax d3,B,0,8,1,7,Fuzzy Minimax d3,A,0,1,150,0.01062,0.00576,491.7,219.8,02-13-31-43-52
+8,Minimax d3,Fuzzy Minimax d3,B,0,3,1,2,Minimax d3,A,2,0,127,0.00862,0.00809,349.0,292.9,02-13-31-43-52
+9,Fuzzy Minimax d3,Minimax d3,A,0,2,4,-2,Minimax d3,B,2,0,155,0.00501,0.00949,197.4,372.7,02-13-31-43-52
+10,Minimax d3,Fuzzy Minimax d3,A,0,7,3,4,Minimax d3,A,0,1,148,0.0061,0.00573,289.8,254.9,02-13-31-43-52
+11,Fuzzy Minimax d3,Minimax d3,B,0,1,4,-3,Minimax d3,B,1,0,143,0.00896,0.00591,351.1,255.4,02-13-31-43-52
+12,Minimax d3,Fuzzy Minimax d3,B,0,8,3,5,Minimax d3,A,1,1,166,0.00803,0.00591,370.1,248.1,02-13-31-43-52
+13,Fuzzy Minimax d3,Minimax d3,A,0,1,2,-1,Minimax d3,B,1,0,151,0.00647,0.00893,252.5,424.1,02-13-31-43-52
+14,Minimax d3,Fuzzy Minimax d3,A,0,2,5,-3,Fuzzy Minimax d3,B,1,0,149,0.00748,0.00616,333.7,264.4,02-13-31-43-52
+15,Fuzzy Minimax d3,Minimax d3,B,0,4,2,2,Fuzzy Minimax d3,A,0,0,136,0.0055,0.00686,261.6,342.8,02-13-31-43-52
+16,Minimax d3,Fuzzy Minimax d3,B,0,7,0,7,Minimax d3,A,0,1,130,0.01017,0.00447,463.0,186.3,02-13-31-43-52
+17,Fuzzy Minimax d3,Minimax d3,A,0,1,2,-1,Minimax d3,B,1,0,153,0.00922,0.00742,401.5,331.1,02-13-31-43-52
+18,Minimax d3,Fuzzy Minimax d3,A,0,0,4,-4,Fuzzy Minimax d3,B,1,0,157,0.00518,0.00798,238.6,360.3,02-13-31-43-52
+19,Fuzzy Minimax d3,Minimax d3,B,0,2,3,-1,Minimax d3,B,0,0,154,0.00607,0.0054,374.3,314.7,02-13-31-43-52
+20,Minimax d3,Fuzzy Minimax d3,B,0,3,8,-5,Fuzzy Minimax d3,B,1,1,157,0.00556,0.00464,307.3,226.4,02-13-31-43-52

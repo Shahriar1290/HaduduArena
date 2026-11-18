@@ -1,0 +1,21 @@
+game,agent_A,agent_B,first_raider,komi,score_A,score_B,final_diff_A,winner,winner_team,tackles,all_outs,plies,avg_time_A,avg_time_B,avg_nodes_A,avg_nodes_B,formation
+1,Minimax d2,Minimax d3,A,0,2,5,-3,Minimax d3,B,2,0,172,0.00057,0.005,45.4,400.4,02-13-31-43-52
+2,Minimax d3,Minimax d2,A,0,9,0,9,Minimax d3,A,0,1,156,0.00385,0.00054,312.0,44.3,02-13-31-43-52
+3,Minimax d2,Minimax d3,B,0,3,5,-2,Minimax d3,B,3,0,176,0.00047,0.00352,38.7,292.1,02-13-31-43-52
+4,Minimax d3,Minimax d2,B,0,5,3,2,Minimax d3,A,3,0,172,0.00365,0.0005,301.1,42.5,02-13-31-43-52
+5,Minimax d2,Minimax d3,A,0,2,3,-1,Minimax d3,B,2,0,164,0.00048,0.00438,45.2,372.8,02-13-31-43-52
+6,Minimax d3,Minimax d2,A,0,3,3,0,draw,draw,2,0,186,0.0041,0.00054,357.7,49.2,02-13-31-43-52
+7,Minimax d2,Minimax d3,B,0,1,3,-2,Minimax d3,B,0,0,168,0.00053,0.00462,50.8,444.8,02-13-31-43-52
+8,Minimax d3,Minimax d2,B,0,7,0,7,Minimax d3,A,0,1,162,0.00626,0.00053,520.8,48.2,02-13-31-43-52
+9,Minimax d2,Minimax d3,A,0,4,4,0,draw,draw,4,0,184,0.0005,0.00359,45.6,313.0,02-13-31-43-52
+10,Minimax d3,Minimax d2,A,0,5,1,4,Minimax d3,A,1,0,170,0.0037,0.00047,325.0,43.5,02-13-31-43-52
+11,Minimax d2,Minimax d3,B,0,1,3,-2,Minimax d3,B,0,0,158,0.00062,0.00465,51.9,395.5,02-13-31-43-52
+12,Minimax d3,Minimax d2,B,0,2,2,0,draw,draw,1,0,156,0.00543,0.00054,355.1,47.0,02-13-31-43-52
+13,Minimax d2,Minimax d3,A,0,1,5,-4,Minimax d3,B,1,0,168,0.00053,0.00407,47.0,368.6,02-13-31-43-52
+14,Minimax d3,Minimax d2,A,0,5,1,4,Minimax d3,A,1,0,160,0.00352,0.00053,296.9,42.8,02-13-31-43-52
+15,Minimax d2,Minimax d3,B,0,2,4,-2,Minimax d3,B,2,0,178,0.00062,0.0045,51.5,391.4,02-13-31-43-52
+16,Minimax d3,Minimax d2,B,0,10,2,8,Minimax d3,A,2,1,186,0.00535,0.00064,443.9,48.2,02-13-31-43-52
+17,Minimax d2,Minimax d3,A,0,1,4,-3,Minimax d3,B,1,0,164,0.00057,0.00493,42.1,347.0,02-13-31-43-52
+18,Minimax d3,Minimax d2,A,0,2,3,-1,Minimax d2,B,3,0,148,0.00327,0.00061,222.7,47.1,02-13-31-43-52
+19,Minimax d2,Minimax d3,B,0,1,4,-3,Minimax d3,B,1,0,162,0.00527,0.04385,42.7,263.5,02-13-31-43-52
+20,Minimax d3,Minimax d2,B,0,5,3,2,Minimax d3,A,3,0,170,0.01114,0.0018,328.1,43.5,02-13-31-43-52
